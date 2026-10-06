@@ -1,0 +1,102 @@
+Exercise 1:
+Git یک ابزار برای مدیریت و ثبت تغییرات پروژه است.
+GitHub یک پلتفرم آنلاین برای ذخیره، مدیریت و به اشتراک‌گذاری Repository های Git است.
+
+Repository محلی روی کامپیوتر قرار دارد و Repository در GitHub نسخه آنلاین پروژه است.
+
+مراحل کلی کار با Git:
+git add
+git commit
+git push
+
+
+Exercise 2:
+Customer:
+Properties: Name, PhoneNumber, Email
+Methods: Buy(), Pay()
+
+Student:
+Properties: Name, StudentId, Major, Age
+Methods: Study(), AttendClass()
+
+Teacher:
+Properties: Name, TeacherId, Subject
+Methods: Teach(), GradeStudent()
+
+Employee:
+Properties: Name, EmployeeId, Salary, JobTitle
+Methods: Work(), ReceiveSalary()
+
+Rectangle:
+Properties: Width, Height
+Methods: CalculateArea(), CalculatePerimeter()
+
+Square:
+Property: Side
+Methods: CalculateArea(), CalculatePerimeter()
+
+Dog:
+Properties: Name, Age, Breed
+Methods: Bark(), Eat()
+
+Cat:
+Properties: Name, Age, Color
+Methods: Meow(), Eat()
+
+
+Exercise 3:
+HTTP یک پروتکل برای ارتباط بین Client و Server در وب است.
+
+HTTPS نسخه امن‌تر HTTP است که اطلاعات را به صورت رمزنگاری‌شده منتقل می‌کند.
+حرف S در HTTPS مخفف Secure است.
+
+تفاوت اصلی HTTP و HTTPS در امنیت و رمزنگاری اطلاعات است.
+
+
+Exercise 4:
+URL آدرس یک منبع در اینترنت است.
+
+Example:
+https://www.example.com/products?id=25
+
+https:// = Protocol
+www.example.com = Domain
+/products = Path
+?id=25 = Query String
+
+
+Exercise 5:
+GET معمولاً برای دریافت اطلاعات از Server استفاده می‌شود.
+
+Example:
+GET /products
+
+POST معمولاً برای ارسال اطلاعات به Server یا ایجاد اطلاعات جدید استفاده می‌شود.
+
+Example:
+POST /users
+
+تفاوت اصلی:
+GET بیشتر برای دریافت اطلاعات و POST بیشتر برای ارسال اطلاعات استفاده می‌شود.
+
+
+Exercise 6:
+JSON یک فرمت متنی برای ذخیره و انتقال اطلاعات است.
+XML نیز یک فرمت متنی برای ذخیره و انتقال اطلاعات است.
+
+JSON:
+{
+    "name": "Melina",
+    "studentId": 123,
+    "major": "Computer Engineering"
+}
+
+XML:
+<Student>
+    <Name>Melina</Name>
+    <StudentId>123</StudentId>
+    <Major>Computer Engineering</Major>
+</Student>
+
+JSON معمولاً کوتاه‌تر است و در API های امروزی بسیار استفاده می‌شود.
+XML نیز ساختارمند است و در بعضی سیستم‌ها و پروژه‌ها استفاده می‌شود.
